@@ -4,11 +4,11 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
-    "backend": "nodemon index.js",
+    "start": "node server/index.js",
+    "backend": "nodemon server/index.js",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "nodemon index.js",
-    "prod": "node index.js",
+    "dev": "nodemon server/index.js",
+    "prod": "node server/index.js",
     "prod:compress": "NODE_ENV=production USE_COMPRESS=1 node index.js"
   },
   "author": "jaedoo",
